@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f4d7a"/>
+      <stop offset="100%" stop-color="#2a6ab0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="70" cy="70" r="68" fill="url(#g)" stroke="#D4AF37" stroke-width="4"/>
+  <g fill="#F5E6C8">
+    <circle cx="55" cy="60" r="15"/>
+    <circle cx="85" cy="60" r="15"/>
+    <ellipse cx="70" cy="90" rx="38" ry="28"/>
+  </g>
+  <text x="70" y="126" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#F5E6C8">ХОМ</text>
+</svg>

@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Честные граждане хомяки">
+  <rect width="720" height="420" fill="#f7f3e8"/>
+  <!-- row of stylized hamsters -->
+  <g transform="translate(30,70)">
+    <!-- hamster generator -->
+    <g id="hamster">
+      <ellipse cx="50" cy="76" rx="46" ry="40" fill="#f3c49f" stroke="#cc9a74" stroke-width="2"/>
+      <circle cx="30" cy="40" r="10" fill="#e9b089"/>
+      <circle cx="70" cy="40" r="10" fill="#e9b089"/>
+      <circle cx="38" cy="70" r="5" fill="#2b2b2b"/>
+      <circle cx="62" cy="70" r="5" fill="#2b2b2b"/>
+      <ellipse cx="50" cy="85" rx="10" ry="8" fill="#9c6b60"/>
+      <rect x="44" y="92" width="12" height="12" fill="#fff" stroke="#d0d0d0"/>
+      <line x1="20" y1="82" x2="38" y2="86" stroke="#333" stroke-width="2"/>
+      <line x1="20" y1="90" x2="38" y2="90" stroke="#333" stroke-width="2"/>
+      <line x1="80" y1="82" x2="62" y2="86" stroke="#333" stroke-width="2"/>
+      <line x1="80" y1="90" x2="62" y2="90" stroke="#333" stroke-width="2"/>
+      <rect x="26" y="112" width="48" height="20" rx="10" fill="#1f4d7a"/>
+    </g>
+    <!-- draw 6 hamsters -->
+    <use href="#hamster" x="0" y="0"/>
+    <use href="#hamster" x="110" y="0"/>
+    <use href="#hamster" x="220" y="0"/>
+    <use href="#hamster" x="330" y="0"/>
+    <use href="#hamster" x="440" y="0"/>
+    <use href="#hamster" x="550" y="0"/>
+  </g>
+  <text x="360" y="360" text-anchor="middle" font-family="Merriweather,Georgia,serif" font-weight="700" font-size="28" fill="#1f4d7a">
+    Честные граждане Хомиленда
+  </text>
+</svg>
